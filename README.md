@@ -113,11 +113,23 @@ Expired link → 410 Gone
 
 Invalid link → 404 Not Found
 
-👨‍💻 Author
-<div align="center"> <b>Bharath M H</b> <br/> <a href="https://www.linkedin.com/in/bharath-m-h-69a167223" target="_blank"> <img src="https://img.shields.io/badge/LinkedIn-Profile-blue?style=for-the-badge&logo=linkedin"/> </a> </div>
-⚖️ License
+👨## 👨‍💻 Author
 
-This project is licensed under the MIT License
-.
+<div align="center">
+  <b>Bharath M H</b>  
+  <br/>
+  <a href="https://www.linkedin.com/in/bharath-m-h-69a167223" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin" alt="LinkedIn"/>
+  </a>
+</div>
 
-<div align="center"> <sub>💙 Made with Spring Boot and Java by <b>Bharath M H</b></sub> </div> ```
+---
+
+## ⚖️ License
+This project is licensed under the [MIT License](./LICENSE).
+
+---
+
+<div align="center">
+  <sub>💙 Made with Spring Boot and Java by <b>Bharath M H</b></sub>
+</div>
