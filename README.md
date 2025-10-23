@@ -1,16 +1,13 @@
-<div align="center">
-  <h1>🔗 Linkify – URL Shortener API</h1>
-  <p>
-    <em>A sleek and modern backend service built with Spring Boot and MySQL that shortens URLs, manages link expiry, and provides Swagger-based API documentation.</em>
-  </p>
+# 🔗 Linkify – URL Shortener API
 
-  <p>
-    <img src="https://img.shields.io/badge/Java-17-blue?style=for-the-badge"/>
-    <img src="https://img.shields.io/badge/Spring%20Boot-3.0-brightgreen?style=for-the-badge"/>
-    <img src="https://img.shields.io/badge/MySQL-8.0-orange?style=for-the-badge"/>
-    <img src="https://img.shields.io/badge/License-MIT-lightgrey?style=for-the-badge"/>
-  </p>
-</div>
+*A sleek and modern backend service built with Spring Boot and MySQL that shortens URLs, manages link expiry, and provides Swagger-based API documentation.*
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Java-17-blue?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Spring%20Boot-3.0-brightgreen?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/MySQL-8.0-orange?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/License-MIT-lightgrey?style=for-the-badge"/>
+</p>
 
 ---
 
@@ -18,8 +15,8 @@
 ✅ Shorten long URLs  
 ✅ Set custom expiration for links  
 ✅ Redirect with HTTP `302 Found`  
-✅ Handle expired (410) & invalid (404) links  
-✅ Explore APIs easily via Swagger UI  
+✅ Handle expired (`410 Gone`) & invalid (`404 Not Found`) links  
+✅ Swagger UI for easy API testing  
 ✅ JUnit + MockMvc test coverage
 
 ---
@@ -38,13 +35,13 @@
 
 ## 🖥️ Swagger UI Preview
 
-> 🌐 URL: [http://localhost:8080/swagger-ui/index.html](http://localhost:8080/swagger-ui/index.html)
+🌐 **URL:** [http://localhost:8080/swagger-ui/index.html](http://localhost:8080/swagger-ui/index.html)
 
 | 🧩 Create Short URL | 🔁 Redirect URL |
 |:--:|:--:|
-| <img src="https://user-images.githubusercontent.com/0000000/placeholder1.png" width="450"/> | <img src="https://user-images.githubusercontent.com/0000000/placeholder2.png" width="450"/> |
+| ![Swagger Screenshot 1](https://user-images.githubusercontent.com/0000000/placeholder1.png) | ![Swagger Screenshot 2](https://user-images.githubusercontent.com/0000000/placeholder2.png) |
 
-> *(You can replace the above placeholders with your own Swagger or Postman screenshots.)*
+> *(Replace placeholders above with actual Swagger or Postman screenshots.)*
 
 ---
 
@@ -56,13 +53,10 @@ git clone https://github.com/BHARATHI408/linkify-url-shortener.git
 cd linkify-url-shortener
 
 🗄️ 2. Configure MySQL
-
-Create a new database:
-
 CREATE DATABASE linkify;
 
 
-Then add this file:
+Then create this file:
 📄 src/main/resources/application.yml
 
 spring:
@@ -81,10 +75,9 @@ server:
 mvn spring-boot:run
 
 
-Swagger UI:
-👉 http://localhost:8080/swagger-ui/index.html
+Open Swagger UI → http://localhost:8080/swagger-ui/index.html
 
-🧪 API Examples
+🧪 Example APIs
 ➕ Create Short URL
 
 POST /api/v1/url
@@ -113,23 +106,14 @@ Expired link → 410 Gone
 
 Invalid link → 404 Not Found
 
-👨## 👨‍💻 Author
+👨‍💻 Author
 
-<div align="center">
-  <b>Bharath M H</b>  
-  <br/>
-  <a href="https://www.linkedin.com/in/bharath-m-h-69a167223" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin" alt="LinkedIn"/>
-  </a>
-</div>
+Bharath M H
 
----
 
-## ⚖️ License
-This project is licensed under the [MIT License](./LICENSE).
+⚖️ License
 
----
+This project is licensed under the MIT License
+.
 
-<div align="center">
-  <sub>💙 Made with Spring Boot and Java by <b>Bharath M H</b></sub>
-</div>
+💙 Made with Spring Boot and Java by Bharath M H
